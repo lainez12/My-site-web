@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Coiny Cyrillic';
+    src: url('font/Coiny-Cyrillic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;   
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: black;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    margin-top: 2.5%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav .nav-left-section {
+    width: 80rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 6.5%;
+}
+
+nav .nav-left-section li{
+    font-size: 3rem;
+    margin-right: 8rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: rgb(255, 182, 13);
+}
+
+main {
+    width: 90vw;
+    height: 65vh;
+    display: flex;
+    margin: auto;
+}
+.foto {
+    display: flex;
+    justify-content: start;
+}
+.presentacion-scale {
+    display: flex;
+    justify-content: end;
+    width: 60%;
+}
+
+.presentacion-titulo {
+   margin-bottom: 8rem; 
+   margin-left: 5.5rem;
+}
+.titulo {
+    font-family: 'Coiny Cyrillic';
+    font-size: 22rem;
+    margin: 0;
+    height: 18rem;
+    color: rgb(255, 182, 13);
+}
+
+.presentacion-subtitulo{
+    margin: 0rem;
+}
+
+.subtitulo {
+    font-family: 'Caveat';
+    font-size: 7rem;
+    margin: 0rem;
+    color: rgb(255, 182, 13);
+}
+
+.description {
+    width: 85rem;
+    font-size: 2.1rem;
+    font-family: 'Montserrat';
+    margin-left: 5.5rem;
+    color: rgb(255, 255, 255)
+}
+
+.presentacion-botom {
+    width: 100%;
+    margin-left: 5.5rem;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.presentacion-botom a {
+    font-size: 2rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-right: 3rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    color: rgba(0, 0, 0, 0.889);
+    background-color: rgb(255, 182, 13);
+    border-radius: 1.3rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .nav-footer-social {
+    display: flex;
+    margin-right: 10%;
+}
+
+.nav-footer-social li {
+    margin-left: 2rem;
+    scale: 90%;
+}
+
+.nav-footer-social a {
+    color: rgb(255, 182, 13);
+}
+/* .assets {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+} */
+
+.rectangulosDiagonales {
+    position: absolute;
+    right: 55rem;
+    top: -2rem;
+    scale: 80%;
+}
+
+.hexagonoAmarillo {
+    position: absolute;
+    top: 40rem;
+    left: 5rem;
+}
+
+.puntosBlancos {
+    position: absolute;
+    top: 20rem;
+}
+
+.puntosBlancos2 {
+    position: absolute;
+    bottom: 1rem;
+    left: 45rem;
+    rotate: 90deg;
+}
+
+.puntosBlancos3 {
+    position: absolute;
+    right: 0rem;
+    top: 25rem;
+}
+
+.semicirculoAmarillo {
+    position: absolute;
+    right: 65rem;
+    bottom: 0rem;
+    rotate: 0deg;
+}
