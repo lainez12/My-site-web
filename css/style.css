@@ -141,6 +141,9 @@ nav .nav-footer-social {
 .nav-footer-social a {
     color: rgb(255, 182, 13);
 }
+
+/*Codigo para icons flotantes*/
+
 /* .assets {
     position: absolute;
     width: 100vw;
@@ -150,7 +153,7 @@ nav .nav-footer-social {
     z-index: -1;
 } */
 
-.rectangulosDiagonales {
+/* .rectangulosDiagonales {
     position: absolute;
     right: 55rem;
     top: -2rem;
@@ -186,4 +189,4 @@ nav .nav-footer-social {
     right: 65rem;
     bottom: 0rem;
     rotate: 0deg;
-}
+} */
